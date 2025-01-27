@@ -12,8 +12,8 @@ I  style the layout using css and javascript to interact with the user during va
 - I was able to make the design responsive without using media query. I am "max-width and precentage".
 
 ## Project Links
-[Link to Respository](https://www.github.com/id)
-[Link to the Live Site](https://okayishmamel.github.io/file-name)
+[Link to Respository](https://github.com/okayishmael/Form-Design-and-Validation-Practice--2)
+[Link to the Live Site](https://okayishmael.github.io/Form-Design-and-Validation-Practice--2/)
 
 
 ## Author
