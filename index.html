@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design and Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="hero-image">
+        <!-- form container -->
+        <div class="form-container">
+        
+            <h1>Subscribe</h1>
+            <p>Sign up to recieve our weekly newsletters.</p>
+            
+    <!-- form begins -->
+            <form onsubmit="return validateForm()" class="form">
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname" value="" placeholder="Enter your first name">
+              <p id="fname-alert"></p>
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname" value="" placeholder="Enter your last name">
+              <p id="lname-alert"></p>
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="email" value="" placeholder="Enter your email">
+              <p id="email-alert"></p>
+              <input  class="btn-submit" type="submit" value="Submit">
+            </form>
+        <!-- form ends -->
+        </div>
+        <!-- form container ends -->
+      </main>  
+</body>
+</html>
